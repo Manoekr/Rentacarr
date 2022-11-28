@@ -1,4 +1,15 @@
 <table class="table">
+    <thead>
+        <tr>
+            <th>Rental Id</th>
+            <th>Car Id</th>
+            <th>Brand Name</th>
+            <th>User Id</th>
+            <th>Name Surname</th>
+            <th>Rent Date</th>
+            <th>Return Date</th>
+        </tr>
+    </thead>
     <tr *ngFor="let rentalDetail of rentalDetails">
         <td>{{rentalDetail.rentalId}}</td>
         <td>{{rentalDetail.id}}</td>
